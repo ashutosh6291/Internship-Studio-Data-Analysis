@@ -1,50 +1,53 @@
-# Internship Studio - Data Analysis
+# 📊 Internship Studio – Data Analysis
 
-**Author:** Ashutosh Ranjan
+A data analysis project developed during the Internship Studio program using Python and data visualization techniques.
 
-Python implementation of the analyses presented in the Internship Studio Data
-Analysis project.
+## 👨‍💻 Author
 
-## Analyses
-- Response Plot
-- Transaction Amount Plot
-- Yearly Sales
+**Ashutosh Ranjan**
+
+## 📌 Project Overview
+
+This project focuses on analyzing transaction and customer data to identify sales trends, customer behavior, transaction patterns, and customer segments.
+
+The analysis includes:
+
+- Monthly Sales Analysis
+- Yearly Sales Analysis
 - Top 5 Customers
 - Top 5 Sales
-- Monthly Sales
-- Churn Count
-- Analysis of Top Customers
-- Transactions based on Month
-- Total Transactions Per Year
-- Customer Response
-- Customer Segment
 - Customer Frequency
+- Customer Response
+- Customer Segmentation
+- Churn Analysis
+- Transaction Amount Analysis
+- Transactions by Month
+- Total Transactions per Year
+- Top Customer Analysis
 
-## Structure
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Data Analysis
+- Data Visualization
+
+## 📂 Project Structure
+
 ```text
 Internship-Studio-Data-Analysis/
-├── data/dataset.csv
+│
+├── data/
+│   └── dataset.csv
+│
 ├── output/
-├── src/analysis.py
-├── requirements.txt
-└── README.md
-```
-
-## Run
-1. Put the original CSV in `data/dataset.csv`.
-2. Check `COLUMN_MAP` in `src/analysis.py` and change names if necessary.
-3. Install:
-```bash
-pip install -r requirements.txt
-```
-4. Run:
-```bash
-python src/analysis.py
-```
-
-Generated charts and summary CSV files are saved in `output/`.
-
-> The original presentation/report was available, but the original raw dataset
-> and source code were not included. Therefore this is a clean Python
-> implementation of the documented analyses, not a claim to reproduce the
-> original source code exactly.
+│   └── Generated analysis results
+│
+├── src/
+│   └── analysis.py
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
